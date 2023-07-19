@@ -128,6 +128,7 @@ header section button {
   border-radius: 67px;
   background: #285E67;
   padding: 16px 77px;
+  margin-bottom: 56px;
 }
 header section button span {
   color: #FFF;
@@ -139,7 +140,6 @@ header section button span {
   line-height: 24px; /* 112.518% */
 }
 header section div {
-  padding-top: 56px;
   display: flex;
   justify-content: space-between;
 }
@@ -169,8 +169,10 @@ header section div .img {
   header section div {
     flex-direction: column;
     margin: 0 auto;
+    gap: 26px;
   }
   header section div .img {
+    padding-top: 0;
     max-width: 90%;
   }
 }
@@ -184,6 +186,11 @@ header section div .img {
   margin-top: 104px;
   display: flex;
   gap: 150px;
+}
+.welldoing .info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
 }
 .welldoing .info-text h2 {
   color: #2B2B2B;
@@ -200,7 +207,6 @@ header section div .img {
   justify-content: space-around;
 }
 .welldoing .info-text .wrapper .box {
-  padding-top: 64px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -209,7 +215,7 @@ header section div .img {
   max-width: 58px;
 }
 .welldoing .info-text .wrapper .box p {
-  max-width: 200px;
+  max-width: 220px;
   color: #2B2B2B;
   font-family: Poppins;
   font-size: 16px;
@@ -247,8 +253,13 @@ header section div .img {
 }
 @media (max-width: 800px) {
   .welldoing {
+    margin-top: 36px;
+    margin-bottom: 36px;
     padding-left: 0;
     padding-top: 80px;
+  }
+  .welldoing .info-text {
+    gap: 40px;
   }
   .welldoing .info-text h2 {
     font-size: 39.7px;
@@ -284,6 +295,7 @@ header section div .img {
   line-height: 62px; /* 122.724% */
 }
 .products .right-text p {
+  padding-top: 16px;
   color: #2B2B2B;
   font-family: Poppins;
   font-size: 16px;
@@ -300,6 +312,7 @@ header section div .img {
   max-width: 52px;
 }
 .products .right-text .info p {
+  padding-top: 0;
   max-width: 450px;
   color: #2B2B2B;
   font-family: Poppins;
@@ -321,14 +334,12 @@ header section div .img {
 }
 @media (max-width: 800px) {
   .products {
+    margin-bottom: 36px;
     flex-direction: column;
     align-items: center;
   }
   .products .img-left {
     max-width: 623px;
-  }
-  .products .img-left img {
-    height: 90vh;
   }
   .products .right-text h2 {
     text-align: center;
@@ -337,6 +348,9 @@ header section div .img {
   }
   .products .right-text p {
     text-align: center;
+  }
+  .products .right-text .info {
+    margin-top: 26px;
   }
   .products .right-text .info .img {
     display: flex;
@@ -363,7 +377,6 @@ header section div .img {
 }
 .food .text {
   display: flex;
-  padding-top: 35px;
   flex-direction: column;
   gap: 41px;
 }
@@ -376,7 +389,6 @@ header section div .img {
   line-height: 30px; /* 59.382% */
 }
 .food .text .wrapper {
-  margin-top: 41px;
   display: flex;
   gap: 69px;
   justify-content: space-around;
@@ -413,6 +425,7 @@ header section div .img {
     line-height: 47px;
   }
   .food .text .wrapper {
+    gap: 41px;
     align-items: center;
     flex-direction: column;
   }
@@ -513,7 +526,7 @@ header section div .img {
 }
 @media (max-width: 800px) {
   .health {
-    height: 48vh;
+    margin-top: 36px;
   }
   .health .top .img {
     width: 46.558px;
@@ -529,6 +542,7 @@ header section div .img {
   }
   .health .bottom {
     grid-template-columns: repeat(1, 1fr);
+    padding-top: 71px;
   }
 }
 
@@ -566,7 +580,7 @@ footer .img {
 }
 @media (max-width: 800px) {
   footer {
-    margin-top: 800px;
+    margin-top: 60px;
     padding: 0;
     padding-top: 78px;
     padding-bottom: 78px;

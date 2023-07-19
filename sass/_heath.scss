@@ -85,7 +85,8 @@
         }
     }
     @media (max-width:800px) {
-        height: 48vh;
+        margin-top: 36px;
+        // height: 48vh;
         // background-position-y: top 1800px ;
         .top{
             .img{
@@ -103,6 +104,7 @@
         }
         .bottom{
             grid-template-columns: repeat(1,1fr);
+            padding-top: 71px;
         }
     }
 }

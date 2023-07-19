@@ -9,6 +9,9 @@
     display: flex;
     gap: 150px;
     .info-text{
+        display: flex;
+        flex-direction: column;
+        gap: 61px;
         h2{
             color:  #2B2B2B;
             font-family: Poppins;
@@ -23,7 +26,7 @@
             display: flex;
             justify-content: space-around;
             .box{
-                padding-top: 64px;
+                // padding-top: 64px;
                 display: flex;
                 flex-direction: column;
                 // align-items: flex-start;
@@ -32,7 +35,7 @@
                     max-width: 58px;
                 }
                 p{
-                    max-width: 200px;
+                    max-width: 220px;
                     color:  #2B2B2B;
                     font-family: Poppins;
                     font-size: 16px;
@@ -71,9 +74,12 @@
         }
     }
     @media (max-width:800px){
+        margin-top: 36px;
+        margin-bottom: 36px;
         padding-left: 0;
         padding-top: 80px;
         .info-text{
+            gap: 40px;
             h2{
                 font-size: 39.7px;
                 line-height: 53px; 
