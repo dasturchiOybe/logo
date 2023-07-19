@@ -1,0 +1,96 @@
+header{
+    nav{
+        padding-top: 32px;
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+        .right{
+            display: flex;
+            gap: 40px; 
+            li{
+                color:  #2B2B2B;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+            }     
+        }
+        .icon-menu{
+            display: none;
+        }
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            color:  #2A2A2A;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 65.34px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 82px; /* 125.497% */
+        }
+        p{
+            padding-bottom: 33px;
+            color:  #2B2B2B;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 150% */
+        }
+        button{ 
+            margin: 0 auto;
+            max-width: 251px;
+            border-radius: 67px;
+            background:  #285E67;
+            padding: 16px 77px;
+            span{
+                color:  #FFF;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 21.33px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px; /* 112.518% */
+            }
+        }
+        div{
+            padding-top: 56px;
+            display: flex;
+            justify-content: space-between;
+            .img{
+                max-width: 49%;
+            }
+        }
+    }
+    @media (max-width:800px) {
+        nav{
+            .right{
+                display: none;
+            }
+            .icon-menu{
+                display: flex;
+                align-items: center;
+            }
+        }
+        section{
+            h1{
+                font-size: 37.9px;
+                line-height: 47px;
+            }
+            div{
+                flex-direction: column;
+                margin: 0 auto;
+                .img{
+                    max-width: 90%;
+
+                }
+            }
+        }
+    }
+}

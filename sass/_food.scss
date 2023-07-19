@@ -1,0 +1,71 @@
+.food{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background: #F4F4F4;
+    display: flex;
+    gap: 150px;
+    img{
+        max-width: 350px;
+    }
+    .text{
+        display: flex;
+        padding-top: 35px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 41px;
+        h2{
+            color: #2B2B2B;
+            font-family: Poppins;
+            font-size: 50.52px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px; /* 59.382% */
+        }
+        .wrapper{
+            margin: 41px auto 0;
+            display: flex;
+            gap: 69px;
+            .info{
+                max-width: 180px;
+                p{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    @media (max-width:1180px) {
+        .text{
+            margin: 0 auto;
+        }
+        .left{
+            display: none;
+        }
+        text-align: center;
+        .img, img{
+            margin: 0 auto;
+        }
+    }
+    @media (max-width:800px){
+        align-items: center;
+        // padding: 5% 50%;
+        .text{
+            h2{
+                text-align: center;
+                font-size: 39.7px;
+                line-height: 47px; 
+            }
+            .wrapper{
+                flex-direction: column;
+                .info{
+                    display: flex;
+                    width: 359px;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+                }
+            }
+        }
+    }
+}

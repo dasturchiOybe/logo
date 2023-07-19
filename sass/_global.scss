@@ -1,11 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-img {
-    max-width: 100%;
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Poppins;
   }
   
   ul {
@@ -20,56 +17,60 @@ img {
     border: none;
   }
   
+  img{
+    max-width: 100%;
+  }
+  
   @font-face {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 900;
     src: url(../fonts/Poppins/Poppins-Black.ttf);
   }
   
   @font-face {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 800;
     src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
   }
   
   @font-face {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 700;
     src: url(../fonts/Poppins/Poppins-Bold.ttf);
   }
   
   @font-face {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 600;
     src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
   }
   
   @font-face {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 500;
     src: url(../fonts/Poppins/Poppins-Medium.ttf);
   }
   
   @font-face {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 400;
     src: url(../fonts/Poppins/Poppins-Regular.ttf);
   }
   
   @font-face {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 300;
     src: url(../fonts/Poppins/Poppins-Light.ttf);
   }
   
   @font-face {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 200;
     src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
   }
   
   @font-face {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-weight: 100;
     src: url(../fonts/Poppins/Poppins-Thin.ttf);
   }

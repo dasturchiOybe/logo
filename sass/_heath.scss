@@ -1,0 +1,108 @@
+.health{
+    margin-top: 104px;
+    background-image: url(../img/bgi.png);
+    background-repeat: no-repeat;   
+    background-position-x: center;
+    .top{
+        padding-top: 99px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        margin-top: 45px;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 37.9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px; /* 94.987% */
+    }
+    p{
+        margin-top: 12px;
+        max-width: 530px;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    button{
+        margin-top: 28px;
+        padding: 16px 80px;
+        background: transparent;
+        border-radius: 67px;
+        border: 1px solid #F4F4F4;
+        span{
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 21.33px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px; /* 112.518% */
+        }
+    }
+    .bottom{
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 48px;
+        border-radius: 12px;
+        background: #FCE2D7;
+        display: flex;
+        padding: 119px 66px;
+        gap: 17px;
+        justify-content: space-between;
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 11px;
+
+            .img{
+                margin: 0 auto;
+                max-width: 82px;
+            }
+            p{
+                color: #2B2B2B;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 21.33px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 112.518% */
+            }
+        }
+    }
+    @media (max-width:1180px) {
+        .bottom{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media (max-width:800px) {
+        height: 50vh;
+        // background-position-y: top 1800px ;
+        .top{
+            .img{
+                width: 46.558px;
+                height: 41.474px;
+                flex-shrink: 0;
+            }
+            h2{
+                font-size: 21.33px;
+                line-height: 31px; /* 145.335% */
+            }
+            p{
+                display: none;
+            }
+        }
+        .bottom{
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+}
