@@ -262,6 +262,7 @@ header section div .img {
     gap: 40px;
   }
   .welldoing .info-text h2 {
+    padding-left: 0;
     font-size: 39.7px;
     line-height: 53px;
   }
