@@ -550,6 +550,7 @@ header section div .img {
   .health .bottom {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 71px;
+    padding-bottom: 71px;
   }
 }
 
