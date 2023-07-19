@@ -1,7 +1,6 @@
 header{
     nav{
         padding-top: 32px;
-        padding-bottom: 80px;
         display: flex;
         justify-content: space-between;
         .right{
@@ -21,6 +20,7 @@ header{
         }
     }
     section{
+        padding-top: 144px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -68,6 +68,11 @@ header{
             }
         }
     }
+    @media (max-width:1180px) {
+        section{
+            padding-top: 60px;
+        }
+    }
     @media (max-width:800px) {
         nav{
             .right{
@@ -79,6 +84,7 @@ header{
             }
         }
         section{
+            padding-top: 64px;
             h1{
                 font-size: 37.9px;
                 line-height: 47px;

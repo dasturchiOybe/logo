@@ -1,11 +1,12 @@
 .welldoing{
     margin-bottom: 104px;
-    padding: 80px 112px 0 112px;
+    padding-top: 80px;
+    align-items: center;
     border-radius: 12px;
     background:  #F4F4F4;
     margin-top: 104px;
     display: flex;
-    justify-content: space-between;
+    gap: 150px;
     .info-text{
         h2{
             color:  #2B2B2B;
@@ -18,14 +19,12 @@
         .wrapper{
             padding-bottom: 50px;
             display: flex;
-            align-items: flex-start;
-            gap: 69px;
-            align-self: stretch;
+            justify-content: space-around;
             .box{
                 padding-top: 64px;
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
+                // align-items: flex-start;
                 gap: 20px;
                 .img{
                     max-width: 58px;
@@ -42,16 +41,27 @@
             }
         }
     }
-    img{
-        max-width: 550px;
+    .img-right{
+        display: flex;
+        align-items: end;
+        .right{
+            max-width: 550px;
+            padding: 0;
+            display: flex;
+            align-items: end;
+        }
     }
 
     @media (max-width:1180px) {
+        padding-left: 0;
         .info-text{
             margin: 0 auto;
         }
-        .right{
+        .img-right{
             display: none;
+            .right{
+                display: none;
+            }
         }
         text-align: center;
         .img, img{
@@ -59,7 +69,7 @@
         }
     }
     @media (max-width:800px){
-        padding: 0;
+        padding-left: 0;
         padding-top: 80px;
         .info-text{
             h2{
